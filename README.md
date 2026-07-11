@@ -43,7 +43,9 @@ Chain ID：
 部署交易 hash：
 
 0x9dfca35ba0ac11dd368382c2fd82f9fef4756182c2b6975a15c92266448ab226
-4. 部署步骤
+```
+
+## 4. 部署步骤
 在 Remix 中打开 OnchainTodo.sol
 使用 Solidity 0.8.x 编译合约
 在 Deploy & Run Transactions 中选择 Browser Extension / MetaMask
@@ -52,10 +54,11 @@ Chain ID：
 点击 Deploy
 在 MetaMask 中确认交易
 部署成功后记录合约地址和部署交易 hash
-5. 合约交互
+
+## 5. 合约交互
 Write Function
 
-调用函数：
+```调用函数：
 
 createTodo("部署到 Monad Testnet")
 
@@ -77,7 +80,9 @@ getMyTodos()
 Todo 内容：部署到 Monad Testnet
 完成状态：false
 创建时间戳：1783761015
-6. 完整链路
+```
+
+## 6. 完整链路
 合约源码
 → Remix 编译
 → MetaMask 连接 Monad Testnet
@@ -86,7 +91,8 @@ Todo 内容：部署到 Monad Testnet
 → 调用 write function
 → 调用 read function
 → 在区块浏览器中验证交易
-7. 安全说明
+
+## 7. 安全说明
 
 本项目使用课程专用钱包和 Monad Testnet 测试资产。
 
