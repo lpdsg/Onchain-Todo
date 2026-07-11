@@ -56,7 +56,7 @@ Chain ID：
 部署成功后记录合约地址和部署交易 hash
 
 ## 5. 合约交互
-Write Function
+
 
 ```调用函数：
 
