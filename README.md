@@ -32,16 +32,24 @@
 
 ```text
 Monad Testnet
+```
+
+
 Chain ID：
 
+```text
 10143
+```
 
 合约地址：
 
+```text
 0xDFd642Cef34c954C34c5A10a6E21c7533334cd49
+```
 
 部署交易 hash：
 
+```text
 0x9dfca35ba0ac11dd368382c2fd82f9fef4756182c2b6975a15c92266448ab226
 ```
 
@@ -64,19 +72,26 @@ createTodo("部署到 Monad Testnet")
 
 交互交易 hash：
 
+```text
 0x3ae255cfdbf2b9a84977d203837799d093ea5d145c90c77a943f715c66352f61
 Read Function
+```
 
 调用函数：
 
+```text
 getMyTodos()
+```
 
 返回结果：
 
+```text
 部署到 Monad Testnet, false, 1783761015
+```
 
 含义：
 
+```text
 Todo 内容：部署到 Monad Testnet
 完成状态：false
 创建时间戳：1783761015
@@ -98,9 +113,9 @@ Todo 内容：部署到 Monad Testnet
 
 仓库中未提交：
 
-私钥
-助记词
-API Key
-Access Token
-.env 文件
-真实资产相关敏感信息
+- 私钥
+- 助记词
+- API Key
+- Access Token
+- .env 文件
+- 真实资产相关敏感信息
